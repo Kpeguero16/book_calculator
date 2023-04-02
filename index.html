@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Calculator</title>
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <p>Book Calculator</p>
+    </div>
+    <div class="questions">
+        <label for="bookName">Book name:</label><br>
+        <input type="text" id="bookName" name="bookName"><br>
+        <br>
+        <label for="pages">Number of pages:</label><br>
+        <input type="text" id="pages" name="pages"><br>
+        <br>
+        <label for="time">Time in days:</label><br>
+        <input type="text" id="time" name="time"><br>
+        <br>
+        <button class="Calculate" onclick="getResult()">Calculate</button>
+    </div>
+    <div class="results">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
