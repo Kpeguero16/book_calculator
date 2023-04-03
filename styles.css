@@ -96,3 +96,11 @@ font-size: 42px;
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
+#results{
+
+  text-decoration: underline;
+  text-decoration-color: white;
+
+  display: none; 
+  margin-top: 20px;
+}

@@ -4,14 +4,17 @@ function getResult()
     var pages = document.getElementById("pages").value;
     var time = document.getElementById("time").value;
 
-    var book = bookName;
-    var nPages = pages;
-    var timeInDays = time;
+    var result = document.getElementById("results");
 
-    console.log(book);
-    console.log(nPages);
-    console.log(timeInDays);
+    result.style.display = "block";
+
+    var text = document.getElementById("text");
+    text.innerHTML = "You can finish " + bookName 
+                    + " in " + time + " days if you" +
+                        " read " + Math.ceil(pages/time) + " pages a day.";
+
 }
+
 
 
 
